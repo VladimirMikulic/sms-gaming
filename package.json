@@ -1,0 +1,31 @@
+{
+  "name": "sms-gaming",
+  "version": "1.0.0",
+  "description": "Gaming platform powered by Twilio SMS.",
+  "main": "lib/app.js",
+  "scripts": {
+    "start": "nodemon lib/app.js"
+  },
+  "keywords": [],
+  "author": "Vladimir Mikulic <vladimir.mikulic2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "html-entities": "^1.3.1",
+    "moji-translate": "^1.0.8",
+    "nanoid": "^3.1.3",
+    "random-words": "^1.1.1",
+    "superb": "^4.0.0",
+    "twilio": "^3.42.2",
+    "txtgen": "^2.2.4",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.3"
+  }
+}
