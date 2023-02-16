@@ -7,26 +7,25 @@
     "start": "nodemon lib/app.js"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "engineStrict": true,
   "author": "Vladimir Mikulic",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.2.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "html-entities": "^2.3.3",
     "moji-translate": "^1.0.8",
-    "random-words": "^1.2.0",
+    "random-words": "^1.2.1",
     "superb": "^4.0.0",
-    "twilio": "^3.83.4",
+    "twilio": "^4.7.2",
     "txtgen": "^3.0.4",
-    "validator": "^13.7.0"
+    "validator": "^13.9.0"
   },
   "devDependencies": {
-    "eslint": "^8.29.0",
+    "eslint": "^8.34.0",
     "nodemon": "^2.0.20"
   }
 }
